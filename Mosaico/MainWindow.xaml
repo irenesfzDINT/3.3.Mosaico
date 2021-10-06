@@ -6,8 +6,36 @@
         xmlns:local="clr-namespace:Mosaico"
         mc:Ignorable="d"
         Icon="assets/mosaic.ico"
-        Title="Mosaico" Height="450" Width="800">
+        Title="Mosaico"
+        Height="600"
+        Width="600">
     <Grid>
-        
+        <DockPanel>
+            <TextBlock DockPanel.Dock="Top"
+                       Background="#FF7C07DE"
+                       Height="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Left"
+                       Background="#FF7C07DE"
+                       Width="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Bottom"
+                       Background="#FF1C9927"
+                       Height="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Right"
+                       Background="#FF1C9927"
+                       Width="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Bottom"
+                       Background="#FFE84A00"
+                       Height="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Left"
+                       Background="#FFE84A00"
+                       Width="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Top"
+                       Background="#FFF501D4"
+                       Height="100"></TextBlock>
+            <TextBlock DockPanel.Dock="Right"
+                       Background="#FFF501D4"
+                       Width="100"></TextBlock>
+            <TextBlock Background="Black"></TextBlock>
+        </DockPanel>
     </Grid>
 </Window>
